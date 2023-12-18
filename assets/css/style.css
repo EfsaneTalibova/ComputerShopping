@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 14px;
 }
 .log_in_page{
     margin: 20px;
@@ -26,4 +25,10 @@
 }
 .createAccount_container{
     width: 420px;
+}
+.hideElement{
+    display: none;
+}
+.homePageHeaderArea{
+    margin: 0 15px;
 }
