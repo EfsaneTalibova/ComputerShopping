@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/computers.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="computersHeaderArea">
+        <hr>
+        <a id="" href="./index.html"><button class="btn btn-warning">Əsas səhifə</button></a>
+        <button type="button" class="btn btn-primary">Yeni kompüter</button>
+        <hr>
+    </header>
+    <main>
+        <span>Show <input type="number" value="5"> entries</span>
+        <div class="table-wrap">
+            <table class="sortable sortableTable">
+                <caption>
+                    Showing 0 to 0 of 0 entries
+                    <span class="sr-only">, column headers with buttons are sortable.</span>
+                </caption>
+                <thead>
+                    <tr>
+                        <th>
+                            <button>
+                               Id
+                                <span aria-hidden="true"></span>
+                            </button>
+                        </th>
+                        <th aria-sort="ascending">
+                            <button>
+                                Ad
+                                <span aria-hidden="true"></span>
+                            </button>
+                        </th>
+                        <th>
+                            <button>
+                                Şəkil
+                                <span aria-hidden="true"></span>
+                            </button>
+                        </th>
+                        <th class="no-sort">Qiymət</th>
+                        <th class="num">
+                            <button>
+                                Əməliyyat
+                                <span aria-hidden="true"></span>
+                            </button>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fred</td>
+                        <td>Jackson</td>
+                        <td>Canary, Inc.</td>
+                        <td>123 Broad St.</td>
+                        <td class="num">56</td>
+                    </tr>
+                    <tr>
+                        <td>Sara</td>
+                        <td>James</td>
+                        <td>Cardinal, Inc.</td>
+                        <td>457 First St.</td>
+                        <td class="num">7</td>
+                    </tr>
+                    <tr>
+                        <td>Ralph</td>
+                        <td>Jefferson</td>
+                        <td>Robin, Inc.</td>
+                        <td>456 Main St.</td>
+                        <td class="num">513</td>
+                    </tr>
+                    <tr>
+                        <td>Nancy</td>
+                        <td>Jensen</td>
+                        <td>Eagle, Inc.</td>
+                        <td>2203 Logan Dr.</td>
+                        <td class="num">3.5</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script src="./assets/js/computers.js"></script>
+</body>
+
+</html>
